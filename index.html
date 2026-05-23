@@ -3,105 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đáp Án Tuyển Tập 3 Đề Toán Nâng Cao</title>
+    <title>Đáp Án 3 Đề Thi Toán Nâng Cao</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <style>
-        body { font-family: 'Times New Roman', Times, serif; line-height: 1.6; margin: 40px auto; max-width: 900px; padding: 20px; background: #fafafa; color: #333; font-size: 18px; }
-        .box { background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        h1 { text-align: center; color: #2c3e50; }
-        h2 { background: #34495e; color: #fff; padding: 10px; border-radius: 4px; text-align: center; margin-top: 40px; }
-        .q-title { font-weight: bold; color: #e74c3c; margin-top: 20px; font-size: 1.1em; border-bottom: 1px solid #eee; padding-bottom: 5px; }
-        .step { margin-left: 15px; margin-top: 10px; }
+        body { font-family: 'Times New Roman', Times, serif; line-height: 1.6; margin: 0; padding: 0; background-color: #f4f4f9; color: #333; font-size: 18px; }
+        .container { max-width: 900px; margin: 40px auto; background: #fff; padding: 40px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 8px; }
+        h1 { text-align: center; color: #b71c1c; font-size: 24px; margin-bottom: 30px; }
+        h2 { background: #2c3e50; color: #fff; padding: 10px; border-radius: 4px; text-align: center; margin-top: 40px; font-size: 20px; }
+        .question { font-weight: bold; color: #c0392b; margin-top: 25px; font-size: 1.1em; border-bottom: 1px solid #ecf0f1; padding-bottom: 5px; }
+        .step { margin-left: 15px; margin-top: 10px; text-align: justify; }
         table { border-collapse: collapse; width: 80%; margin: 15px auto; }
-        th, td { border: 1px solid #aaa; padding: 8px; text-align: center; }
-        th { background: #ecf0f1; }
+        th, td { border: 1px solid #bdc3c7; padding: 8px; text-align: center; }
+        th { background-color: #ecf0f1; }
     </style>
 </head>
 <body>
 
-<div class="box">
-    <h1>HƯỚNG DẪN GIẢI CHI TIẾT 3 ĐỀ THI VÀO LỚP 10</h1>
+<div class="container">
+    <h1>HƯỚNG DẪN GIẢI CHI TIẾT 3 ĐỀ THI TOÁN VÀO 10</h1>
 
     <h2>ĐÁP ÁN ĐỀ SỐ 1</h2>
     
-    <div class="q-title">Câu 1</div>
-    <div class="step"><b>a)</b> \( A = \sqrt{27} - 2\sqrt{12} + \sqrt{75} = 3\sqrt{3} - 2(2\sqrt{3}) + 5\sqrt{3} = 3\sqrt{3} - 4\sqrt{3} + 5\sqrt{3} = 4\sqrt{3} \).</div>
-    <div class="step"><b>b)</b> \( P = \frac{\sqrt{x}+1 - (\sqrt{x}-1)}{(\sqrt{x}-1)(\sqrt{x}+1)} \cdot \frac{x-1}{\sqrt{x}} = \frac{2}{x-1} \cdot \frac{x-1}{\sqrt{x}} = \frac{2}{\sqrt{x}} \).</div>
+    <div class="question">Câu 1 (1,5 điểm)</div>
+    <div class="step"><b>a)</b> \( A = \sqrt{9 - 4\sqrt{5}} - \sqrt{5} = \sqrt{5 - 2\cdot 2\cdot \sqrt{5} + 4} - \sqrt{5} = \sqrt{(\sqrt{5} - 2)^2} - \sqrt{5} \)<br>
+        \( A = |\sqrt{5} - 2| - \sqrt{5} = \sqrt{5} - 2 - \sqrt{5} = -2 \) (vì \( \sqrt{5} > 2 \)).
+    </div>
+    <div class="step"><b>b)</b> \( P = \left( \frac{\sqrt{x}}{\sqrt{x}-2} - \frac{4}{\sqrt{x}(\sqrt{x}-2)} \right) \cdot \frac{1}{\sqrt{x}+2} \)<br>
+        \( P = \frac{x - 4}{\sqrt{x}(\sqrt{x}-2)} \cdot \frac{1}{\sqrt{x}+2} = \frac{(\sqrt{x}-2)(\sqrt{x}+2)}{\sqrt{x}(\sqrt{x}-2)(\sqrt{x}+2)} = \frac{1}{\sqrt{x}} \).
+    </div>
 
-    <div class="q-title">Câu 3</div>
-    <div class="step"><b>a)</b> \( x^2 - 4x - 5 = 0 \). Do \( a - b + c = 1 - (-4) - 5 = 0 \) nên \( x_1 = -1; x_2 = 5 \).</div>
-    <div class="step"><b>b)</b> \( \Delta' = m^2 - (m^2 - m + 1) = m - 1 \). Để phương trình có 2 nghiệm phân biệt \( \Leftrightarrow m - 1 > 0 \Leftrightarrow m > 1 \).<br>
-        Theo Viète: \( x_1 + x_2 = 2m \); \( x_1x_2 = m^2 - m + 1 \).<br>
-        \( x_1^2 + x_2^2 - x_1x_2 = 7 \Leftrightarrow (x_1+x_2)^2 - 3x_1x_2 = 7 \Leftrightarrow 4m^2 - 3(m^2-m+1) = 7 \)<br>
-        \( \Leftrightarrow m^2 + 3m - 10 = 0 \Rightarrow m=2 \) (nhận), \( m=-5 \) (loại). Vậy <b>m = 2</b>.</div>
-    <div class="step"><b>c)</b> Đổi 4 giờ 48 phút = 24/5 giờ. Gọi x, y (giờ) là thời gian vòi I, II chảy 1 mình đầy bể. Trong 1 giờ vòi I chảy \( 1/x \) bể, vòi II chảy \( 1/y \) bể.<br>
-        Hệ pt: \( \begin{cases} \frac{1}{x} + \frac{1}{y} = \frac{5}{24} \\ \frac{3}{x} + \frac{4}{y} = \frac{3}{4} \end{cases} \). Đặt ẩn phụ, giải ra \( \frac{1}{x} = \frac{1}{12}, \frac{1}{y} = \frac{1}{8} \Rightarrow x = 12, y = 8 \).</div>
+    <div class="question">Câu 2 (0,5 điểm)</div>
+    <div class="step">Parabol \( y = 2x^2 \) đi qua các điểm: (-2; 8), (-1; 2), (0; 0), (1; 2), (2; 8). (Học sinh tự vẽ đồ thị).</div>
 
-    <div class="q-title">Câu 4</div>
-    <div class="step">Thể tích bồn cầu: \( V = \frac{4}{3}\pi R^3 \approx \frac{4}{3} \cdot 3,14 \cdot (1,2)^3 \approx 7,23 \text{ m}^3 \).</div>
+    <div class="question">Câu 3 (1,5 điểm)</div>
+    <div class="step"><b>a)</b> \( x^2 - 7x + 12 = 0 \Rightarrow \Delta = (-7)^2 - 4\cdot 1\cdot 12 = 1 > 0 \). Hai nghiệm là \( x_1 = 4, x_2 = 3 \).</div>
+    <div class="step"><b>b)</b> \( \Delta' = m^2 - (m^2 - 1) = 1 > 0 \) với mọi \( m \). Hệ thức Viète: \( x_1 + x_2 = 2m \); \( x_1x_2 = m^2 - 1 \).<br>
+        \( x_1^2 + x_2^2 = 10 \Leftrightarrow (x_1+x_2)^2 - 2x_1x_2 = 10 \Leftrightarrow 4m^2 - 2(m^2-1) = 10 \)<br>
+        \( \Leftrightarrow 2m^2 + 2 = 10 \Leftrightarrow 2m^2 = 8 \Leftrightarrow m^2 = 4 \Leftrightarrow m = 2 \) hoặc \( m = -2 \).
+    </div>
+    <div class="step"><b>c)</b> Gọi vận tốc ô tô đi từ A là \( x \) (km/h) và từ B là \( y \) (km/h). (\( x > y > 0 \)).<br>
+        Ngược chiều (gặp sau 2h): \( 2x + 2y = 150 \Leftrightarrow x + y = 75 \) (1).<br>
+        Cùng chiều (kịp sau 10h): \( 10x - 10y = 150 \Leftrightarrow x - y = 15 \) (2).<br>
+        Từ (1) và (2) giải ra: \( x = 45 \) (km/h) và \( y = 30 \) (km/h).
+    </div>
 
-    <div class="q-title">Câu 5</div>
-    <div class="step"><b>a)</b> Dùng Pytago \( AC = \sqrt{10^2 - 6^2} = 8 \) cm. \( \sin B = \frac{AC}{BC} = \frac{8}{10} = \frac{4}{5}; \cos B = \frac{AB}{BC} = \frac{6}{10} = \frac{3}{5} \).</div>
-    <div class="step"><b>b)</b> Chiều cao \( h = 30 \cdot \tan 50^\circ \approx 35,8 \) m.</div>
-    <div class="step"><b>c)</b> i. Góc \( MAO = MBO = 90^\circ \) (tính chất tiếp tuyến) \(\Rightarrow\) Tứ giác MAOB nội tiếp đường tròn đường kính OM.<br>
-        ii. Xét \( \Delta MAC \) và \( \Delta MDA \) có góc M chung, \( \widehat{MAC} = \widehat{MDA} \) (góc tạo bởi tia tiếp tuyến và dây cung). \(\Rightarrow \Delta MAC \sim \Delta MDA \Rightarrow MA/MD = MC/MA \Rightarrow MA^2 = MC \cdot MD \).</div>
+    <div class="question">Câu 4 (1,0 điểm)</div>
+    <div class="step">Bán kính bồn cầu: \( R = \frac{1,2}{2} = 0,6 \) (m).<br>
+        Diện tích bề mặt: \( S = 4\pi R^2 \approx 4 \cdot 3,14 \cdot (0,6)^2 \approx 4,52 \) (m\(^2\)).
+    </div>
 
-    <div class="q-title">Câu 6</div>
-    <div class="step"><b>b) Xác suất:</b> Xác suất rút quả đỏ lần 1 là 3/5. Sau đó hộp còn 4 quả (2 đỏ, 2 xanh), xác suất rút quả đỏ lần 2 là 2/4. \( P = \frac{3}{5} \cdot \frac{2}{4} = \frac{6}{20} = 0,3 \).</div>
+    <div class="question">Câu 5 (3,0 điểm)</div>
+    <div class="step"><b>a)</b> Cạnh \( AC = \sqrt{17^2 - 8^2} = 15 \) cm. \( \sin C = \frac{AB}{BC} = \frac{8}{17} \); \( \cos C = \frac{AC}{BC} = \frac{15}{17} \).</div>
+    <div class="step"><b>b)</b> Khoảng cách: \( d = \frac{50}{\tan 30^\circ} = 50\sqrt{3} \approx 86,6 \) (mét).</div>
+    <div class="step"><b>c)</b> i. \( \widehat{OBA} = \widehat{OCA} = 90^\circ \) (tiếp tuyến). Tứ giác có tổng hai góc đối bằng \( 180^\circ \) nên nội tiếp. Do \( OB = OC = R \) và \( AB = AC \Rightarrow OA \perp BC \) tại H.<br>
+        ii. \( \Delta ABM \sim \Delta ANB \) (g-g) vì chung góc A và \( \widehat{ABM} = \widehat{ANB} \) (cùng chắn cung BM). Suy ra \( \frac{AB}{AN} = \frac{AM}{AB} \Rightarrow AB^2 = AM \cdot AN \).
+    </div>
 
-    <div class="q-title">Câu 7</div>
-    <div class="step">Gọi \( x \) là số bàn (\( x > 0 \)). Số ghế là \( 50 - x \). Bất pt: \( 200.000x + 100.000(50-x) \ge 8.000.000 \Leftrightarrow 100.000x \ge 3.000.000 \Leftrightarrow x \ge 30 \). Cần sản xuất tối thiểu <b>30 cái bàn</b>.</div>
+    <div class="question">Câu 6 (1,5 điểm)</div>
+    <div class="step"><b>a)</b> Bảng tần số (tự kẻ với 4 nhóm và các tần số tương ứng 5, 15, 20, 10).</div>
+    <div class="step"><b>b)</b> Không gian mẫu: \( 6 \times 6 = 36 \). Các kết quả tổng = 8: (2,6), (3,5), (4,4), (5,3), (6,2) \( \Rightarrow \) 5 kết quả thuận lợi.<br>Xác suất: \( P = \frac{5}{36} \).</div>
+
+    <div class="question">Câu 7 (1,0 điểm)</div>
+    <div class="step">Lợi nhuận = Doanh thu - Tổng chi phí. Bất phương trình:<br>
+        \( 250.000x - (20.000.000 + 100.000x) \ge 10.000.000 \)<br>
+        \( \Leftrightarrow 150.000x \ge 30.000.000 \Leftrightarrow x \ge 200 \). Cần sản xuất tối thiểu <b>200 chiếc áo</b>.
+    </div>
 
 
     <h2>ĐÁP ÁN ĐỀ SỐ 2</h2>
     
-    <div class="q-title">Câu 1</div>
-    <div class="step"><b>a)</b> \( A = \sqrt{(\sqrt{5}-\sqrt{3})^2} + \sqrt{3} - 2\sqrt{5} = \sqrt{5} - \sqrt{3} + \sqrt{3} - 2\sqrt{5} = -\sqrt{5} \).</div>
-    <div class="step"><b>b)</b> \( P = \frac{(\sqrt{x}-2)(\sqrt{x}+2)}{\sqrt{x}-2} - \frac{\sqrt{x}(\sqrt{x}+2)}{\sqrt{x}} + 1 = (\sqrt{x}+2) - (\sqrt{x}+2) + 1 = 1 \).</div>
+    <div class="question">Câu 1 (1,5 điểm)</div>
+    <div class="step"><b>a)</b> \( A = |2 - \sqrt{3}| + 2\sqrt{3} = 2 - \sqrt{3} + 2\sqrt{3} = 2 + \sqrt{3} \).</div>
+    <div class="step"><b>b)</b> \( P = \frac{\sqrt{x}+1 + \sqrt{x}-1}{(\sqrt{x}-1)(\sqrt{x}+1)} \cdot \frac{x-1}{2} = \frac{2\sqrt{x}}{x-1} \cdot \frac{x-1}{2} = \sqrt{x} \).</div>
 
-    <div class="q-title">Câu 3</div>
-    <div class="step"><b>b)</b> \( \Delta = 5 - 4m > 0 \Rightarrow m < 5/4 \).<br> 
-    \( |x_1 - x_2| = \sqrt{5} \Leftrightarrow (x_1 - x_2)^2 = 5 \Leftrightarrow (x_1+x_2)^2 - 4x_1x_2 = 5 \Leftrightarrow (2m-1)^2 - 4(m^2-1) = 5 \Leftrightarrow 5 - 4m = 5 \Rightarrow m = 0 \) (thỏa).</div>
-    <div class="step"><b>c)</b> Gọi x, y là số HS dự thi của trường A, B. \( x + y = 500 \). HS đỗ: \( 0,8x + 0,9y = 420 \). Giải hệ được <b>\( x = 300, y = 200 \)</b>.</div>
+    <div class="question">Câu 3 (1,5 điểm)</div>
+    <div class="step"><b>a)</b> \( 2x^2 + 5x - 3 = 0 \Rightarrow \Delta = 25 - 4\cdot 2\cdot (-3) = 49 \). Nghiệm: \( x_1 = \frac{1}{2}, x_2 = -3 \).</div>
+    <div class="step"><b>b)</b> \( \Delta = (2m+1)^2 - 4(m^2+m) = 1 > 0 \). Viète: \( x_1+x_2 = 2m+1, x_1x_2 = m^2+m \).<br>
+        \( x_1^2 + x_2^2 - 3x_1x_2 = 1 \Leftrightarrow (x_1+x_2)^2 - 5x_1x_2 = 1 \Leftrightarrow (2m+1)^2 - 5(m^2+m) = 1 \)<br>
+        \( \Leftrightarrow 4m^2 + 4m + 1 - 5m^2 - 5m - 1 = 0 \Leftrightarrow -m^2 - m = 0 \Leftrightarrow m = 0 \) hoặc \( m = -1 \).
+    </div>
+    <div class="step"><b>c)</b> Gọi giá món 1 là \( x \), món 2 là \( y \). Hệ PT: \( \begin{cases} x + y = 500.000 \\ 0,9x + 0,8y = 430.000 \end{cases} \). Giải ra: \( x = 300.000 \), \( y = 200.000 \).</div>
 
-    <div class="q-title">Câu 4</div>
-    <div class="step">Bán kính \( R = 4 \) cm. Thể tích nón: \( V = \frac{1}{3}\pi R^2 h = \frac{1}{3} \cdot 3,14 \cdot 4^2 \cdot 12 = 200,96 \text{ cm}^3 \).</div>
+    <div class="question">Câu 4 (1,0 điểm)</div>
+    <div class="step">Thể tích nón: \( V = \frac{1}{3}\pi R^2 h = \frac{1}{3} \cdot 3,14 \cdot (3)^2 \cdot 8 \approx 75,36 \) (cm\(^3\)).</div>
 
-    <div class="q-title">Câu 5</div>
-    <div class="step"><b>b)</b> Khoảng cách: \( d = 80 / \tan 30^\circ = 80\sqrt{3} \approx 138,6 \) m.</div>
-    <div class="step"><b>c)</b> ii. OM là đường trung trực của AB \( \Rightarrow OM \perp AB \) tại H. Trong tam giác vuông OAM, AH là đường cao \(\Rightarrow OH \cdot OM = OA^2 = R^2 \).</div>
+    <div class="question">Câu 5 (3,0 điểm)</div>
+    <div class="step"><b>a)</b> \( EF = \sqrt{9^2 + 12^2} = 15 \). \( \sin E = \frac{DF}{EF} = \frac{12}{15} = \frac{4}{5} \); \( \tan E = \frac{DF}{DE} = \frac{12}{9} = \frac{4}{3} \).</div>
+    <div class="step"><b>b)</b> Chiều cao: \( h = 5 \cdot \sin 65^\circ \approx 4,53 \) (mét).</div>
+    <div class="step"><b>c)</b> i. Góc vuông tại A và B \( \Rightarrow \) 4 điểm nội tiếp đường tròn đường kính OM.<br>
+        ii. Trong tam giác OAM vuông tại A, AH là đường cao \( \Rightarrow OH \cdot OM = OA^2 = R^2 \).
+    </div>
 
-    <div class="q-title">Câu 6</div>
-    <div class="step"><b>b)</b> Không gian mẫu gieo 2 đồng xu: {SS, SN, NS, NN} (4 phần tử). Biến cố có ít nhất 1 mặt ngửa: {SN, NS, NN} (3 phần tử). Xác suất: <b>\( P = 3/4 \)</b>.</div>
+    <div class="question">Câu 6 (1,5 điểm)</div>
+    <div class="step"><b>a)</b> Tổng số: 40 HS. Tần số tương đối (%): \( [4; 6) \): 25%; \( [6; 8) \): 50%; \( [8; 10] \): 25%.</div>
+    <div class="step"><b>b)</b> Không gian mẫu (chọn 2 từ 7 quả): \( C_7^2 = 21 \). Cùng màu (2 Đỏ hoặc 2 Xanh): \( C_4^2 + C_3^2 = 6 + 3 = 9 \).<br>Xác suất: \( P = \frac{9}{21} = \frac{3}{7} \).</div>
 
-    <div class="q-title">Câu 7</div>
-    <div class="step">Bất pt: \( 20.000 + 2.000x \le 100.000 \Leftrightarrow 2.000x \le 80.000 \Leftrightarrow x \le 40 \). Tối đa <b>40 phút</b>.</div>
+    <div class="question">Câu 7 (1,0 điểm)</div>
+    <div class="step">Bất phương trình: \( 150.000x - (5.000.000 + 50.000x) \ge 2.000.000 \)<br>
+        \( \Leftrightarrow 100.000x \ge 7.000.000 \Leftrightarrow x \ge 70 \). Ít nhất <b>70 vé</b>.
+    </div>
 
 
     <h2>ĐÁP ÁN ĐỀ SỐ 3</h2>
     
-    <div class="q-title">Câu 1</div>
-    <div class="step"><b>a)</b> \( A = \frac{2(\sqrt{3}+1)}{3-1} - (2-\sqrt{3}) - 3\sqrt{3} = \sqrt{3}+1 - 2 + \sqrt{3} - 3\sqrt{3} = -1 - \sqrt{3} \).</div>
-    <div class="step"><b>b)</b> Quy đồng ngoặc: \( \frac{\sqrt{x}(\sqrt{x}+2) + \sqrt{x}(\sqrt{x}-2)}{x-4} = \frac{2x}{x-4} \). Nhập lại: \( P = \frac{2x}{x-4} \cdot \frac{x-4}{2x} = 1 \).</div>
+    <div class="question">Câu 1 (1,5 điểm)</div>
+    <div class="step"><b>a)</b> \( A = \frac{4(\sqrt{7}+\sqrt{3})}{7-3} - \sqrt{7} = \sqrt{7} + \sqrt{3} - \sqrt{7} = \sqrt{3} \).</div>
+    <div class="step"><b>b)</b> \( P = \frac{(\sqrt{x}+1)^2 - (\sqrt{x}-1)^2}{x-1} : \frac{4\sqrt{x}}{x-1} = \frac{(x+2\sqrt{x}+1) - (x-2\sqrt{x}+1)}{x-1} \cdot \frac{x-1}{4\sqrt{x}} \)<br>
+        \( = \frac{4\sqrt{x}}{x-1} \cdot \frac{x-1}{4\sqrt{x}} = 1 \).
+    </div>
 
-    <div class="q-title">Câu 3</div>
-    <div class="step"><b>b)</b> \( \Delta' = m+2 > 0 \Rightarrow m > -2 \). \( x_1^2 + x_2^2 = 6 \Leftrightarrow (2m+2)^2 - 2(m^2+m-1) = 6 \Leftrightarrow 2m^2 + 6m = 0 \Rightarrow m=0 \) (nhận) hoặc \( m=-3 \) (loại).</div>
-    <div class="step"><b>c)</b> Gọi x, y là vận tốc xuôi và ngược dòng. Hệ: \( 60/x + 48/y = 6 \) và \( 40/x + 80/y = 7 \). Giải ra \( x = 20 \) km/h, \( y = 16 \) km/h. V_cano = 18, V_nước = 2.</div>
+    <div class="question">Câu 3 (1,5 điểm)</div>
+    <div class="step"><b>a)</b> \( 3x^2 - 2x - 5 = 0 \Rightarrow a - b + c = 3 - (-2) - 5 = 0 \). Nghiệm: \( x_1 = -1, x_2 = \frac{5}{3} \).</div>
+    <div class="step"><b>b)</b> \( \Delta' = (m-1)^2 - (m^2-3) = -2m + 4 \). Phương trình có 2 nghiệm \( \Rightarrow m < 2 \).<br>
+        \( x_1^2 + x_2^2 = 10 \Leftrightarrow (2m-2)^2 - 2(m^2-3) = 10 \Leftrightarrow 4m^2 - 8m + 4 - 2m^2 + 6 = 10 \)<br>
+        \( \Leftrightarrow 2m^2 - 8m = 0 \Leftrightarrow 2m(m-4) = 0 \Leftrightarrow m = 0 \) (nhận) hoặc \( m = 4 \) (loại).
+    </div>
+    <div class="step"><b>c)</b> Gọi chiều dài là \( x \), rộng là \( y \). Hệ PT: \( \begin{cases} x + y = 50 \\ (x+10)(y-5) = xy \end{cases} \)<br>
+        \( \Leftrightarrow \begin{cases} x + y = 50 \\ -5x + 10y = 50 \end{cases} \Leftrightarrow \begin{cases} x + y = 50 \\ -x + 2y = 10 \end{cases} \Rightarrow 3y = 60 \Rightarrow y = 20, x = 30 \) (m).
+    </div>
 
-    <div class="q-title">Câu 4</div>
-    <div class="step">\( R_{ngoài} = 0,1 \) m, \( R_{trong} = 0,08 \) m. Thể tích thép \( V = \pi h (R_{ngoài}^2 - R_{trong}^2) = 3,14 \cdot 2 \cdot (0,1^2 - 0,08^2) = 0,022608 \text{ m}^3 \).</div>
+    <div class="question">Câu 4 (1,0 điểm)</div>
+    <div class="step">Diện tích xung quanh hình trụ: \( S = \pi \cdot d \cdot h \approx 3,14 \cdot 0,5 \cdot 3 = 4,71 \) (m\(^2\)).</div>
 
-    <div class="q-title">Câu 5</div>
-    <div class="step"><b>a)</b> \( \sin^2 \alpha + \cos^2 \alpha = 1 \Rightarrow \cos \alpha = \sqrt{1 - 0,6^2} = 0,8 \).</div>
-    <div class="step"><b>b)</b> Gọi h là chiều cao. Ta có \( AH = h \cdot \cot 60^\circ, BH = h \cdot \cot 30^\circ \). \( BH - AH = AB \Rightarrow h\sqrt{3} - h/\sqrt{3} = 20 \Rightarrow 2h/\sqrt{3} = 20 \Rightarrow h = 10\sqrt{3} \approx 17,3 \) m.</div>
-    <div class="step"><b>c)</b> ii. I là trung điểm dây AB nên \( OI \perp AB \Rightarrow \widehat{OIC} = 90^\circ \). Mà \( \widehat{OMC} = \widehat{ONC} = 90^\circ \). Nên 5 điểm C, M, I, O, N cùng nằm trên đường tròn đường kính OC.</div>
+    <div class="question">Câu 5 (3,0 điểm)</div>
+    <div class="step"><b>a)</b> \( \cos \alpha = \sqrt{1 - \sin^2 \alpha} = \sqrt{1 - 0,36} = \sqrt{0,64} = 0,8 \). \( \tan \alpha = \frac{\sin \alpha}{\cos \alpha} = \frac{0,6}{0,8} = 0,75 \).</div>
+    <div class="step"><b>b)</b> Gọi h là chiều cao tháp. \( AB = h \cdot \cot 40^\circ - h \cdot \cot 60^\circ \)<br>
+        \( \Rightarrow h = \frac{20}{\cot 40^\circ - \cot 60^\circ} = \frac{20}{1,1917 - 0,5774} \approx 32,6 \) (mét).
+    </div>
+    <div class="step"><b>c)</b> i. \( \widehat{OAC} = \widehat{OMC} = 90^\circ \Rightarrow \) tứ giác nội tiếp.<br>
+        ii. OC, OD là phân giác góc kề bù \( \Rightarrow \widehat{COD} = 90^\circ \). Tam giác COD vuông tại O có đường cao OM, suy ra \( CM \cdot MD = OM^2 = R^2 \). Mà \( CM = AC \) và \( MD = BD \) nên \( AC \cdot BD = R^2 \).
+    </div>
 
-    <div class="q-title">Câu 6</div>
-    <div class="step"><b>b)</b> Các số nguyên tố từ 1 đến 10 là {2, 3, 5, 7} (4 số). Xác suất \( P = 4/10 = 0,4 \).</div>
+    <div class="question">Câu 6 (1,5 điểm)</div>
+    <div class="step"><b>a)</b> Bảng tần số (tự kẻ): 3 nhóm với tần số lần lượt là 8, 15, 7.</div>
+    <div class="step"><b>b)</b> Không gian mẫu: 8 kết quả (NNN, NNS, NSN, SNN, NSS, SNS, SSN, SSS).<br>
+        Đúng 2 ngửa (N): (NNS, NSN, SNN) \( \Rightarrow \) 3 kết quả thuận lợi. Xác suất: \( P = \frac{3}{8} \).
+    </div>
 
-    <div class="q-title">Câu 7</div>
-    <div class="step">Bất pt (gói A rẻ hơn gói B): \( 150.000 < 50.000 + 5.000x \Leftrightarrow 5.000x > 100.000 \Leftrightarrow x > 20 \). Cần dùng tối thiểu <b>21 GB</b>.</div>
+    <div class="question">Câu 7 (1,0 điểm)</div>
+    <div class="step">Gói A rẻ hơn Gói B: \( 150.000 < 50.000 + 10.000x \)<br>
+        \( \Leftrightarrow 10.000x > 100.000 \Leftrightarrow x > 10 \). Số GB nguyên tối thiểu cần dùng là <b>11 GB</b>.
+    </div>
 </div>
 
 </body>
